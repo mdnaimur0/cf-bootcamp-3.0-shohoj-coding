@@ -12,7 +12,7 @@ using ll = long long;
 using vi = vector<int>;
 
 void solve() {
-    
+  
 }
 
 int main() {
