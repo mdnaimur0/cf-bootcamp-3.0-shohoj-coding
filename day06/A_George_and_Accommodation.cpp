@@ -1,0 +1,38 @@
+/*
+ * Problem: A. George and Accommodation
+ * URL: https://codeforces.com/problemset/problem/467/A
+ * Date: 2026-08-15
+ * Time: 12:25:46
+ */
+
+#include <bits/stdc++.h>
+using namespace std;
+
+using ll = long long;
+using vi = vector<int>;
+
+void solve() {
+  int n;
+  cin >> n;
+  int p, q, ans = 0;
+  while (n--) {
+    cin >> p >> q;
+    if (q - p >= 2)
+      ans++;
+  }
+  cout << ans;
+}
+
+int main() {
+  ios::sync_with_stdio(false);
+  cin.tie(nullptr);
+
+  int t = 1;
+  // cin >> t;
+
+  while (t--) {
+    solve();
+  }
+
+  return 0;
+}
