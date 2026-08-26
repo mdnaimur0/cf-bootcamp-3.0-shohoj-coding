@@ -12,7 +12,7 @@ using ll = long long;
 using vi = vector<int>;
 
 void solve() {
-  
+  // $CURSOR_PLACEHOLDER
 }
 
 int main() {
